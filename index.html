@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.1.96/css/materialdesignicons.min.css"
+    integrity="sha512-NaaXI5f4rdmlThv3ZAVS44U9yNWJaUYWzPhvlg5SC7nMRvQYV9suauRK3gVbxh7qjE33ApTPD+hkOW78VSHyeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>bananaMiner</title>
+</head>
+
+<body>
+  <!-- SECTION -->
+  <main class="container d-flex flex-column justify-content-around">
+    <section class="row justify-content-center">
+      <div class="col-8 text-center">
+        <img onclick="app.GamesController.mineBanana()" role="button" class="img-fluid banana" src="https://em-content.zobj.net/source/microsoft-teams/363/banana_1f34c.png" alt="">
+      </div>
+    </section>
+    <!-- SECTION total Stats -->
+    <section class="row bg-warning rounded text-light">
+      <div class="col-3 offset-1 fs-3 text-end"><span id="click-power"></span><i class="mdi mdi-gesture-double-tap"></i></div>
+      <div class="col-3 fs-2 text-center">🍌 <span id="banana-count">0</span></div>
+      <div class="col-3 fs-2"><i class="mdi mdi-timer"></i> <span id="time-power"></span></div>
+    </section>
+    <!-- SECTION shop -->
+    <section id="shop" class="row bg-warning rounded">
+
+
+    </section>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+  <script src="app/App.js" type="module"></script>
+
+</body>
+
+</html>

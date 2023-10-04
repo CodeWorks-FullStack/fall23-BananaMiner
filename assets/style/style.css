@@ -1,0 +1,41 @@
+/* BASIC STYLES HERE */
+html{
+  background-color: black;
+}
+body{
+  background-image: url(https://secretcompass.com/wp-content/uploads/2018/01/Jungle-Rot.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+main{
+  height: 100%;
+  flex-grow: 1;
+}
+
+.banana{
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  transition: all .2s ease;
+}
+
+.banana:hover{
+  transform: scale(1.1);
+}
+.banana:active{
+  transform: scale(.85);
+}
+
+.score-get{
+  position: absolute;
+  animation: float-up .2s linear forwards;
+}
+
+@keyframes float-up{
+0%{ 
+  opacity: 0;
+  transform: translateY(0px);
+}
+100%{
+  opacity: 1;
+  transform: translateY(-100px);
+}
+}
